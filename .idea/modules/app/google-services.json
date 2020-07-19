@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "460682440307",
+    "firebase_url": "https://parentchat-khagav.firebaseio.com",
+    "project_id": "parentchat-khagav",
+    "storage_bucket": "parentchat-khagav.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460682440307:android:55b7eda534d5e144b94406",
+        "android_client_info": {
+          "package_name": "com.example.fyp_app_2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "460682440307-eq6149ct5hicjr3hsaumdo6j73qgdr39.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fyp_app_2",
+            "certificate_hash": "8ded46089dfbc53343a0bf547f1c07b867a59482"
+          }
+        },
+        {
+          "client_id": "460682440307-uaoia6omm9mmjk1pq3b54t60p0n6jo3b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvOsDwVptmVGPwRl24OgWjM5irxWVQxBw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "460682440307-uaoia6omm9mmjk1pq3b54t60p0n6jo3b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
