@@ -9,7 +9,7 @@
         android:id="@+id/imageView"
         android:layout_width="67dp"
         android:layout_height="48dp"
-        tools:srcCompat="@android:drawable/ic_dialog_email" />
+        app:srcCompat="@drawable/email" />
 
     <TextView
         android:id="@+id/tvEmail"

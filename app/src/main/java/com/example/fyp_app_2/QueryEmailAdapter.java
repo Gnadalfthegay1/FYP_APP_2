@@ -35,7 +35,7 @@ public class QueryEmailAdapter extends ArrayAdapter<Query> {
         Query q1 = q.get(position);
         tvEmail = view.findViewById(R.id.tvEmail);
         iv = view.findViewById(R.id.imageView);
-        iv.setImageResource(R.drawable.mail);
+        iv.setImageResource(R.drawable.email);
         tvEmail.setText(q1.getEmail());
         return view;
     }
