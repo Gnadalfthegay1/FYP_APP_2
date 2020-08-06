@@ -8,23 +8,23 @@
     android:orientation="vertical"
     android:padding="24dp">
 
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/school_crest" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="20sp"
-            android:text="Username"
-            android:layout_weight="0" />
 
         <EditText
             android:id="@+id/editTextUsername"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:hint="Email"
             android:inputType="textPersonName"
             android:textSize="20sp" />
 
@@ -36,26 +36,20 @@
         android:padding="5dip"
         android:orientation="horizontal">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="20sp"
-            android:text="Password"
-            android:layout_weight="0" />
-
         <EditText
             android:id="@+id/editTextPassword"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:hint="Password"
             android:inputType="textPassword"
             android:textSize="20sp" />
     </LinearLayout>
 
     <Button
-        android:layout_width="wrap_content"
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Login"
-        android:id="@+id/btnLogin" />
+        android:text="Login" />
 
 </LinearLayout>

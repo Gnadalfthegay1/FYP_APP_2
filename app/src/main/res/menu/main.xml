@@ -3,5 +3,5 @@
 
     <item
         android:id="@+id/menu_add"
-        android:title="Reload" />
+        android:title="Sign Out" />
 </menu>

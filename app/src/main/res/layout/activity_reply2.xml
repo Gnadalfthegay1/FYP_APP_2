@@ -17,14 +17,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="From:"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
         <TextView
             android:id="@+id/fromEmaIl"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="TextView" />
+            android:text="TextView"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
     </LinearLayout>
 
     <LinearLayout
@@ -38,13 +39,14 @@
             android:layout_height="wrap_content"
             android:layout_weight="0"
             android:text="To:"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
         <TextView
             android:id="@+id/email"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="TextView"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
     </LinearLayout>
 
     <LinearLayout
@@ -58,13 +60,14 @@
             android:layout_height="wrap_content"
             android:layout_weight="0"
             android:text="Query:"
-            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
         <TextView
             android:id="@+id/query"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="TextView"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
     </LinearLayout>
 
     <LinearLayout
@@ -86,6 +89,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
+            android:hint="Enter Subject Here"
             android:inputType="textPersonName" />
     </LinearLayout>
 
@@ -95,6 +99,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:gravity="start|top"
+        android:hint="Type Reply Here"
         android:inputType="textMultiLine" />
 
     <Button
